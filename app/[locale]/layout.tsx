@@ -1,5 +1,6 @@
 import { NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
+import { unstable_setRequestLocale } from "next-intl/server";
 
 export function generateStaticParams() {
   return [{ locale: "en" }, { locale: "de" }];
@@ -19,6 +20,7 @@ export default async function LocaleLayout({
   } catch (error) {
     notFound();
   }
+  unstable_setRequestLocale(locale);
 
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
