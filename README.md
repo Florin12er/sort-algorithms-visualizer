@@ -26,7 +26,7 @@ Key features:
 
 ## Live Demo
 
-Check out the live demo: [Sorting Algorithm Visualizer](https://your-vercel-deployment-url.vercel.app)
+Check out the live demo: [Sorting Algorithm Visualizer](https://sort-algorithms-visualizer-six.vercel.app/)
 
 ## Installation and Setup
 
