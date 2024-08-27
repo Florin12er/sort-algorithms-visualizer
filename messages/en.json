@@ -1,0 +1,42 @@
+{
+  "Index": {
+    "title": "Sorting Algorithm Visualizer",
+    "description": "Explore various sorting algorithms, understand how they work, and visualize their processes step by step.",
+    "comparisonTitle": "Sorting Algorithm Comparison",
+    "searchPlaceholder": "Search algorithms",
+    "visualizeButton": "Visualize"
+  },
+  "Visualize": {
+    "visualization": "Visualization",
+    "backToHome": "Back to Home",
+    "algorithmNotFound": "Algorithm not found",
+    "learningResources": "Learning Resources"
+  },
+  "CustomArrayInput": {
+    "instructions": "Enter numbers separated by commas (e.g., 5, 2, 8, 12, 1, 6)",
+    "inputPlaceholder": "Enter numbers...",
+    "submitButton": "Custom Array",
+    "invalidNumbersError": "Please enter valid numbers separated by commas.",
+    "minNumbersError": "Please enter at least two numbers."
+  },
+  "CodeDisplay": {
+    "selectLanguage": "Select Language:",
+    "languages": {
+      "c": "C",
+      "cpp": "C++",
+      "go": "Go",
+      "java": "Java",
+      "javascript": "JavaScript",
+      "python": "Python",
+      "ruby": "Ruby"
+    }
+  },
+  "SortingVisualizer": {
+    "reset": "Reset Data",
+    "speed": "Speed",
+    "sortingCompleted": "Sorting Completed!",
+    "pleaseWait": "The Sorting is completed.",
+    "sort": "Sort",
+    "stop": "sorting..."
+  }
+}

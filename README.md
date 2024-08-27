@@ -1,36 +1,114 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Sorting Algorithm Visualizer
 
-## Getting Started
+## Description
 
-First, run the development server:
+The Sorting Algorithm Visualizer is an interactive web application designed to help users understand and visualize
+various sorting algorithms. This project aims to make learning sorting algorithms more intuitive and engaging through
+visual representations of the sorting process.
+
+Key features:
+
+- Interactive visualization of popular sorting algorithms
+- Customizable array input
+- Adjustable sorting speed
+- Code examples in multiple programming languages
+- Responsive design for desktop and mobile devices
+- Internationalization support (English and German)
+
+## Technologies Used
+
+- Next.js
+- React
+- TypeScript
+- Chakra UI
+- D3.js for visualizations
+- next-intl for internationalization
+
+## Live Demo
+
+Check out the live demo: [Sorting Algorithm Visualizer](https://your-vercel-deployment-url.vercel.app)
+
+## Installation and Setup
+
+To run this project locally:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Florin12er/sort-algorithms-visualizer.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd sorting-algorithm-visualizer
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Hosting on Vercel
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To deploy this project on Vercel:
 
-## Learn More
+1. Sign up for a Vercel account at [vercel.com](https://vercel.com) if you haven't already.
 
-To learn more about Next.js, take a look at the following resources:
+2. Clone this repository:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+git clone https://github.com/Florin12er/sort-algorithms-visualizer.git
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3. Add to your Github via forking or just removing .git directory and adding your new one:
 
-## Deploy on Vercel
+```bash
+git init
+git add .
+git commit -m "initial commit"
+git remote add origin https://github.com/User/Repository.git
+git push -u origin main
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. Create a Vercel project and select the github repository and deploy your project.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Adding New Algorithms
+
+To add a new sorting algorithm to the project:
+
+1. Implement the sorting algorithm, following the structure of existing algorithms.
+
+2. Add the new algorithm to the `algorithms.ts` file in the `data` directory:
+
+```typescript
+export const algorithms = {
+  // ... existing algorithms
+  "new-algorithm": {
+    name: "New Algorithm",
+    description: "Description of the new algorithm",
+    path: "/new-algorithm",
+    codeExamples: {
+      // Add code examples in different languages
+    },
+    resources: [
+      // Add learning resources
+    ],
+  },
+};
+```
+
+3. Update app/[locale]/visualize/[algorithm]/page.tsx to include the new algorithm's visualization.
+
+# Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.

@@ -1,0 +1,42 @@
+{
+  "Index": {
+    "title": "Sortieralgorithmen-Visualisierer",
+    "description": "Erkunden Sie verschiedene Sortieralgorithmen, verstehen Sie, wie sie funktionieren, und visualisieren Sie ihre Prozesse Schritt für Schritt.",
+    "comparisonTitle": "Vergleich der Sortieralgorithmen",
+    "searchPlaceholder": "Algorithmen suchen",
+    "visualizeButton": "Visualisieren"
+  },
+  "Visualize": {
+    "visualization": "Visualisierung",
+    "backToHome": "Zurück zur Startseite",
+    "algorithmNotFound": "Algorithmus nicht gefunden",
+    "learningResources": "Lernressourcen"
+  },
+  "CustomArrayInput": {
+    "instructions": "Geben Sie durch Kommas getrennte Zahlen ein (z.B. 5, 2, 8, 12, 1, 6)",
+    "inputPlaceholder": "Zahlen eingeben...",
+    "submitButton": "Benutzerdefiniertes Array",
+    "invalidNumbersError": "Bitte geben Sie gültige, durch Kommas getrennte Zahlen ein.",
+    "minNumbersError": "Bitte geben Sie mindestens zwei Zahlen ein."
+  },
+  "CodeDisplay": {
+    "selectLanguage": "Sprache auswählen:",
+    "languages": {
+      "c": "C",
+      "cpp": "C++",
+      "go": "Go",
+      "java": "Java",
+      "javascript": "JavaScript",
+      "python": "Python",
+      "ruby": "Ruby"
+    }
+  },
+  "SortingVisualizer": {
+    "reset": "Daten Zurücksetzen",
+    "speed": "Geschwindigkeit",
+    "sortingCompleted": "Sortierung abgeschlossen",
+    "pleaseWait": "Sortierung wird ausgeführt.",
+    "sort": "Sortieren",
+    "stop": "Sortiert ..."
+  }
+}
